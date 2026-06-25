@@ -33,7 +33,7 @@
   }
 
   &:hover &__title {
-    color: #34568b;
+    color: $color-title-hover;
   }
 
   &__image {
@@ -128,8 +128,8 @@
 
     &:hover {
       border: 1px solid $blue;
-      color: #00acdc;
-      background: #fff;
+      color: $blue;
+      background: $white;
     }
   }
 }
